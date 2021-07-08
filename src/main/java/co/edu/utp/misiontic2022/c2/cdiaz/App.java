@@ -21,6 +21,7 @@ public class App {
 
     private static void iniciarTablero() {
         Tablero t = new Tablero();
+        
         t.ubicarFicha(0, 0, new Torre(Color.BLANCO));
         t.ubicarFicha(0, 7, new Torre(Color.BLANCO));
         t.ubicarFicha(0, 1, new Caballo(Color.BLANCO));
