@@ -1,7 +1,7 @@
 package co.edu.utp.misiontic2022.c2.cdiaz.ajedrez;
 
 public abstract class Ficha implements Dibujable, ElementoMovil {
-    private String color;
+    private Color color;
 
     public Boolean capturar() {
         // Si en la casilla a la que se mueve 

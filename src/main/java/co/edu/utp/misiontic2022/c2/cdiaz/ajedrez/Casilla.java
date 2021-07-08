@@ -1,7 +1,7 @@
 package co.edu.utp.misiontic2022.c2.cdiaz.ajedrez;
 
 public class Casilla implements Dibujable {
-    private String color;
+    private Color color;
     private Integer fila;
     private Integer columna;
 
