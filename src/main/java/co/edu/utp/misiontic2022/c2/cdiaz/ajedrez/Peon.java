@@ -2,6 +2,11 @@ package co.edu.utp.misiontic2022.c2.cdiaz.ajedrez;
 
 public class Peon extends Ficha {
 
+    public Peon(Color color) {
+        super(color);
+        //TODO Auto-generated constructor stub
+    }
+
     public Boolean comer() {
         return null;
     }

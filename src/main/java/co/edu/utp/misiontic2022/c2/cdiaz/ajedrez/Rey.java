@@ -1,6 +1,11 @@
 package co.edu.utp.misiontic2022.c2.cdiaz.ajedrez;
 
 public class Rey extends Ficha {
+    public Rey(Color color) {
+        super(color);
+        //TODO Auto-generated constructor stub
+    }
+
     public Boolean mover() {
         return null;
     }
